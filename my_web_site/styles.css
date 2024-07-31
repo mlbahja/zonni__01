@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #d40d0d;
+}
+
+.badge {
+    background-color: #0743c5;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: ceoutlinenter;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.badge-header {
+    margin-bottom: 10px;
+}
+
+.badge-level {
+    font-weight: bold;
+    color: #ff9800;
+}

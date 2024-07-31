@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page First</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="/result" method="post">
+        <div class="first_number">
+            <textarea id="nbr1" name="nbr1" placeholder="Enter first digits"></textarea>
+        </div>
+        <div class="second_number">
+            <textarea id="nbr2" name="nbr2" placeholder="Enter second digits"></textarea>
+        </div>
+        <button type="submit">Calculate sum of two integers</button>
+    </form>
+    <div class="result">
+        <pre>
+            <!-- This is where the server will insert the result -->
+            {{.}}
+        </pre>
+    </div>
+</body>
+</html>
+

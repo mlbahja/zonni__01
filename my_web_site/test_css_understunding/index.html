@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>class and id example</title>
+        <style>
+            .example {
+                color: aqua;
+                font-size: larger;
+            }
+            #unique {
+                font-weight: bold;
+            }
+            .combined  {
+                background-color: bisque;
+            }
+            .body{
+                background{
+                color: aqua;
+                }
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <p class="example">This paragraph uses the class "example".</p>
+        <p id="unique">This paragraph uses the id "unique".</p>
+        <p class="example" id="unique">This paragraphe usqes both class "example" and ID "unique".</p>
+        <p class="combined">This paragraphe uses the class "combined".</p>
+        <p class="combined">This paragraph uses the class "combined".</p>
+        <p class="combined" id="unique">This paragraph uses both class "combined" and ID "unique".</p>
+    </body>
+
+</html>

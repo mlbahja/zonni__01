@@ -1,0 +1,27 @@
+/* Class selector */
+.text {
+    color: blue;
+    font-size: 16px;
+}
+
+/* ID selector */
+#header {
+    background-color: rgb(218, 14, 14);
+    padding: 10px;
+    text-align: center;
+}
+
+/* ID selector */
+#footer {
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* ID selector with higher specificity */
+#special-text {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
